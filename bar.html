@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation - Bar</title>
+
+    <style>
+        body { height: 100vh; background-image: linear-gradient(to right, #ca5ff1 0%, #937eff 100%); }
+        .bar { 
+            width: 5px; height: 400px; background-color: #fff; position: absolute; 
+            top: 0; left: 0; right: 0; bottom: 0; margin: auto;
+            /* animation 효과*/
+            /* animation-name: bar; animation-duration: 2s; 
+            animation-timing-function: ease-in-out; animation-iteration-count: 100; */
+            animation: bar 2s ease-in-out 100;
+        }
+
+        @keyframes bar {
+            0% { transform: rotate(0); height: 0; }
+            25% { transform: rotate(0); height: 400; }
+            50% { transform: rotate(180deg); height: 400px; }
+            100% { transform: rotate(180deg); height: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bar"></div>
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html> 

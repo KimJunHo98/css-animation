@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation - Wave</title>
+
+    <style>
+        body { 
+            height: 100vh; background-image: linear-gradient(120deg, #efb569 0%, #f2e258 100%); 
+            display: flex; align-items: center; justify-content: center;
+        }  
+        .circle { 
+            width: 10px; height: 10px; background-color: #fff; margin: 5px 10px; border-radius: 50%; 
+            animation: spin 1s linear infinite; transform-origin: top center;
+        }
+        .row { display: flex; flex: 0 1 100%; }
+        .row:nth-child(1) .circle { animation-delay: 100ms; }
+        .row:nth-child(2) .circle { animation-delay: 200ms; }
+        .row:nth-child(3) .circle { animation-delay: 300ms; }
+        .row:nth-child(4) .circle { animation-delay: 400ms; }
+        .row:nth-child(5) .circle { animation-delay: 500ms; }
+        .row:nth-child(6) .circle { animation-delay: 600ms; }
+        .row:nth-child(7) .circle { animation-delay: 700ms; }
+        .row:nth-child(8) .circle { animation-delay: 800ms; }
+        .row:nth-child(9) .circle { animation-delay: 900ms; }
+        .row:nth-child(10) .circle { animation-delay: 1000ms; }
+
+        @keyframes spin {
+            0% { transform: rotate(0); scale: 1.1; }
+            50% { transform: rotate(180deg); scale: .3; }
+            100% { transform: rotate(360deg); scale: 1.1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="circles">
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="row">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html> 
